@@ -28,7 +28,7 @@ if "retry_error" not in st.session_state:
 
 # Set up the page
 st.set_page_config(page_title="Enter title here")
-st.sidebar.title("Title")
+st.sidebar.title("Chatbot support")
 st.sidebar.divider()
 st.sidebar.markdown("DW", unsafe_allow_html=True)
 st.sidebar.markdown("Technical support")
