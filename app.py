@@ -30,8 +30,8 @@ if "retry_error" not in st.session_state:
 st.set_page_config(page_title="Enter title here")
 st.sidebar.title("Title")
 st.sidebar.divider()
-st.sidebar.markdown("Your name", unsafe_allow_html=True)
-st.sidebar.markdown("Assistant GPT")
+st.sidebar.markdown("DW", unsafe_allow_html=True)
+st.sidebar.markdown("Technical support")
 st.sidebar.divider()
 
 # File uploader for CSV, XLS, XLSX
